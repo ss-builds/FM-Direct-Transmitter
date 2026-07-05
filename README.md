@@ -34,3 +34,16 @@
 
 **Update 06/29/26:** Given that my Corolla's current head unit has the option for a CD player (which transmits lossless audio), I was considering to use that port to inject my BT signal into. However, this would mean taking out the head unit, probing a (very likely) proprietary communication protocol between the OEM CD player and the head unit. This will be something to consider for the future, but for now, I'll stick to something that injects directly into FM port.
 
+**Update 07/04/26:** Adding some basic schematic pictures to document progression. NOTE: VERY work in progress.
+
+RF Generation:
+<img width="1743" height="955" alt="image" src="https://github.com/user-attachments/assets/1898c511-0d12-455d-9a40-5ffbc0f8b6f3" />
+
+Power: 
+<img width="1671" height="1160" alt="image" src="https://github.com/user-attachments/assets/c4733e2a-425e-4c3c-8da7-fcf717a077a7" />
+
+Oscillator capacitor shunt selection: 
+<img width="2864" height="1363" alt="image" src="https://github.com/user-attachments/assets/a86b12da-44dd-4312-8fed-164d49dedd01" />
+
+
+
