@@ -34,6 +34,10 @@
 
 **Update 06/29/26:** Given that my Corolla's current head unit has the option for a CD player (which transmits lossless audio), I was considering to use that port to inject my BT signal into. However, this would mean taking out the head unit, probing a (very likely) proprietary communication protocol between the OEM CD player and the head unit. This will be something to consider for the future, but for now, I'll stick to something that injects directly into FM port.
 
+**Update 07/05/2026:** Use two boards with mezzanine connectors for better EMI support & to prevent space problems while capturing the schematic.
+
+**Update 07/06/26:** ADIsimPLL; due to constraints from capacitor sizing and to balance enough charge pump current to prevent external EMI from interfering with my VCO (MAX2606), max tunable frequency without issues is 103.9MHz, compared to the original value of 108MHz. Using 560uF hybrid polymer capacitor for C2, with 220nF C0G filter caps. To even get to a value as low as 560uF, I had to reduce the effective Kvco by using a voltage divider from ~11MHz/V to ~4.46MHz/V (reduction factor of 0.435). Otherwise, I'd be looking at values for C2 that are >1.5mF (way too high for realistic applications).
+
 **Update 07/04/26:** Adding some basic schematic pictures to document progression. NOTE: VERY work in progress.
 
 RF Generation:
