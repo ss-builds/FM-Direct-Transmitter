@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# Regenerates dated schematic/PCB PNG snapshots (see scripts/export_schematic_previews.py)
+# and stages them before the commit completes. Never blocks the commit on failure.
+set -e
+
+REPO_ROOT="$(git rev-parse --show-toplevel)"
+cd "$REPO_ROOT"
+
+if command -v python3 >/dev/null 2>&1; then
+    python3 scripts/export_schematic_previews.py || echo "warning: schematic preview export failed, continuing commit" >&2
+    git add "Design Updates" 2>/dev/null || true
+else
+    echo "warning: python3 not found, skipping schematic preview export" >&2
+fi
+
+exit 0

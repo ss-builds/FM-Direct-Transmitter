@@ -24,3 +24,9 @@ Project Logs
 .SchDocPreview
 .PcbDocPreview
 __Previews
+# Local staging area for build/progress photos - not pushed to GitHub.
+# Drop photos here (optionally in a subfolder named after a tag, e.g.
+# photos_inbox/PDU/); scripts/update_design_log.py sorts them into
+# Design Updates/<date>/ and removes them from here.
+photos_inbox/
+scripts/
