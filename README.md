@@ -40,8 +40,8 @@
 
 **Update 07/04/26:** Adding some basic schematic pictures to document progression. NOTE: VERY work in progress.
 
-RF Generation:
-<img width="1743" height="955" alt="image" src="https://github.com/user-attachments/assets/1898c511-0d12-455d-9a40-5ffbc0f8b6f3" />
+RF Generation _(As of 07/06/26)_:
+<img width="1598" height="1229" alt="image" src="https://github.com/user-attachments/assets/3d1e2612-c225-4e1a-a80f-ca26a0bed9a5" />
 
 Power: 
 <img width="1671" height="1160" alt="image" src="https://github.com/user-attachments/assets/c4733e2a-425e-4c3c-8da7-fcf717a077a7" />
