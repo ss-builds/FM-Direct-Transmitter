@@ -1,30 +1,30 @@
 # Altium Designer generated files
-History
-__Previews
-Project Outputs
-Project Logs
-Project Logs for DigitalInterface_FM
-Project Logs for FM Transmitter
-Project Logs for RFInterface_FM
+History/
+__Previews/
+Project Outputs/
+Project Logs/
+Project Logs for DigitalInterface_FM/
+Project Logs for FM Transmitter/
+Project Logs for RFInterface_FM/
 
 # Altium temporary and output files
-.PcbDoc.htm
-.SchDoc.htm
-.Cam
-.apr
-.Net
-.Rep
-.Drc
-.LOG
-.PcbDoc.htm
-.SchDoc.htm
+*.PcbDoc.htm
+*.SchDoc.htm
+*.Cam
+*.apr
+*.Net
+*.Rep
+*.Drc
+*.LOG
+*.PcbDoc.htm
+*.SchDoc.htm
 
 # Altium backup files
-.PrjPcbStructure
-.PrjScmStructure
+*.PrjPcbStructure
+*.PrjScmStructure
 
 # Altium PCBDocs
-.PcbDoc
+*.PcbDoc
 
 
 # Altium cache
