@@ -20,6 +20,10 @@ Project Logs
 .PrjPcbStructure
 .PrjScmStructure
 
+# Altium PCBDocs
+.PcbDoc
+
+
 # Altium cache
 .SchDocPreview
 .PcbDocPreview
