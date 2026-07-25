@@ -23,8 +23,9 @@ Project Logs for RFInterface_FM/
 *.PrjPcbStructure
 *.PrjScmStructure
 
-# Altium PCBDocs
+#PCBDocs
 *.PcbDoc
+DI_FM.PcbDoc
 
 
 # Altium cache
