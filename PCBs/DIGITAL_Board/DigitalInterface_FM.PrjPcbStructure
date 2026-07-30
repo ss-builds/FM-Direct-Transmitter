@@ -1,4 +1,4 @@
-Record=TopLevelDocument|FileName=ConnectorInterface.SchDoc|SheetNumber=2
+Record=TopLevelDocument|FileName=ConnectorInterface.SchDoc|SheetNumber=1
+Record=SheetSymbol|SourceDocument=ConnectorInterface.SchDoc|Designator=BM83|SchDesignator=BM83|FileName=BM83.SchDoc|SheetNumber=2|SymbolType=Normal|RawFileName=BM83.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
 Record=SheetSymbol|SourceDocument=ConnectorInterface.SchDoc|Designator=DIG_PDU|SchDesignator=DIG_PDU|FileName=DIG_PDU.SchDoc|SheetNumber=4|SymbolType=Normal|RawFileName=DIG_PDU.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
 Record=SheetSymbol|SourceDocument=ConnectorInterface.SchDoc|Designator=MCU|SchDesignator=MCU|FileName=MCU.SchDoc|SheetNumber=3|SymbolType=Normal|RawFileName=MCU.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
-Record=NoMainPathDocument|SourceDocument=ConnectorInterface.SchDoc|FileName=BM83.SchDoc|SheetNumber=1
