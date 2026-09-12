@@ -1,0 +1,4 @@
+Record=DiagramHierarchy|SourceDocument=TopLevel.MbsDoc|Kind=Multi-board Schematic Module|Designator=1|Source=..\..\DIGITAL_Board\DigitalInterface_FM.PrjPcb
+Record=SubProject|SourceDocument=TopLevel.MbsDoc|ProjectPath=..\..\DIGITAL_Board\DigitalInterface_FM.PrjPcb
+Record=DiagramHierarchy|SourceDocument=TopLevel.MbsDoc|Kind=Multi-board Schematic Module|Designator=2|Source=..\..\RF_Board\RFInterface.PrjPcb
+Record=SubProject|SourceDocument=TopLevel.MbsDoc|ProjectPath=..\..\RF_Board\RFInterface.PrjPcb

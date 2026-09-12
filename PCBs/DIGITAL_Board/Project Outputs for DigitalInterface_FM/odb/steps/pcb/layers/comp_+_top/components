@@ -1,0 +1,903 @@
+UNITS=MM
+#
+#Component attribute names
+#
+@0 .comp_mount_type
+@1 .comp_height
+@2 .no_pop
+@3 .comp_ignore
+@4 .comp_variant_list
+@5 .placement_layer
+
+#
+#Component attribute text strings
+#
+&0 top_layer
+
+# CMP 0
+CMP 30 38.90000094 43.05000026 180 N 3V3 TEST_POINT ;0=2,1=0.3300,2,3,5=0
+TOP 0 38.90000094 43.05000026 180 N 45 8 1
+#
+# CMP 1
+CMP 9 38.1999998 36.84999996 180 N C14 0.1uF ;0=1,1=0.3300,5=0
+PRP Capacitance '100nF'
+PRP Dielectric 'XR7'
+PRP ESR ''
+PRP Tolerance '10%'
+PRP Voltage_Rating '16V'
+TOP 0 38.65214774 36.84999996 180 N 39 76 1
+TOP 1 37.74785186 36.84999996 180 N 24 3 2
+#
+# CMP 2
+CMP 31 20.15000034 27.30000128 90 N J6 USB4105-GF-A ;0=1,1=0.3300,5=0
+PRP ComponentLink1Description ''
+PRP ComponentLink1URL ''
+PRP ComponentLink2Description ''
+PRP ComponentLink2URL ''
+PRP Contact_Plating ''
+PRP Design_Item_ID ''
+PRP Gender ''
+PRP Manufacturer_1 ''
+PRP Manufacturer_Part_Number_1 ''
+PRP Number_of_Contacts ''
+PRP Number_of_Rows ''
+PRP Packaging ''
+PRP Pitch ''
+PRP Pricing_1 ''
+PRP Radiation_Hardening ''
+PRP RoHS ''
+PRP Source ''
+PRP Stock_1 ''
+PRP Termination ''
+TOP 0 23.74008206 30.49992122 90 N 39 71 A1-B12
+TOP 1 23.74008206 29.69992028 90 N 0 24 A4-B9
+TOP 2 23.74008206 28.54992004 90 N 0 27 A5
+TOP 3 23.74008206 27.5499195 90 N 5 3 A6
+TOP 4 23.74008206 27.0499205 90 N 4 0 A7
+TOP 5 23.74008206 26.04991996 90 N 0 28 A8
+TOP 6 23.74008206 24.09991878 90 N 39 50 B1-A12
+TOP 7 23.74008206 24.89991972 90 N 0 25 B4-A9
+TOP 8 23.74008206 25.54992096 90 N 0 23 B5
+TOP 9 23.74008206 26.54991896 90 N 5 0 B6
+TOP 10 23.74008206 28.04992104 90 N 4 3 B7
+TOP 11 23.74008206 29.04991904 90 N 0 26 B8
+TOP 12 22.6650804 30.1899193 90 N 0 32 H1
+TOP 13 22.6650804 24.4099207 90 N 0 36 H2
+TOP 14 23.1650794 31.61991898 90 N 39 44 S1
+TOP 15 23.1650794 22.97992102 90 N 39 40 S2
+TOP 16 18.98508268 31.61991898 90 N 39 42 S3
+TOP 17 18.98508268 22.97992102 90 N 39 41 S4
+#
+# CMP 3
+CMP 9 36.12214772 36.89999986 0 N C1 0.1uF ;0=1,1=0.3300,5=0
+PRP Capacitance '100nF'
+PRP Dielectric 'XR7'
+PRP ESR ''
+PRP Tolerance '10%'
+PRP Voltage_Rating '16V'
+TOP 0 35.66999978 36.89999986 0 N 39 68 1
+TOP 1 36.57429566 36.89999986 0 N 45 12 2
+#
+# CMP 4
+CMP 6 31.9499996 51.70000074 90 N FAULT 5988A10107F ;0=1,1=0.0000,5=0
+PRP Case/Package '0402'
+PRP Color 'Red'
+PRP Forward_Current '5mA'
+PRP Forward_Voltage '1.6V'
+PRP Height '533.4µm'
+PRP Luminous_Intensity '65mcd'
+PRP Max_Operating_Temperature '85°C'
+PRP Min_Operating_Temperature '-40°C'
+PRP NexarPartId '100993512'
+PRP Power_Dissipation '46mW'
+PRP Reverse_Voltage '5V'
+PRP RoHS 'Compliant'
+PRP Schedule_B '8541402000, 8541402000'
+PRP Viewing_Angle '140°'
+PRP Wavelength '635nm'
+TOP 0 31.9499996 52.24999964 90 N 28 0 1
+TOP 1 31.9499996 51.15000184 90 N 27 0 2
+#
+# CMP 5
+CMP 18 51.75000064 54.79999962 90 N D2 QBLP595-IB ;0=1,1=0.0000,5=0
+PRP Case_Code_(Imperial) '0402'
+PRP Case_Code_(Metric) '1005'
+PRP Case/Package '0402'
+PRP Color 'Blue'
+PRP Dominant_Wavelength '465nm'
+PRP Forward_Voltage '3.1V'
+PRP Height '0.6mm'
+PRP Length '1mm'
+PRP Lens_Color 'Colorless'
+PRP Lens_Size '0.5mm'
+PRP Lens_Style 'Flat'
+PRP Lens_Transparency 'Clear'
+PRP Luminous_Intensity '85mcd'
+PRP Mount 'Surface Mount'
+PRP Packaging 'Tape and Reel'
+PRP Test_Current '20mA'
+PRP Viewing_Angle '140°'
+PRP Width '0.5mm'
+TOP 0 51.75000064 55.29999862 90 N 39 32 1
+TOP 1 51.75000064 54.30000062 90 N 6 1 2
+#
+# CMP 6
+CMP 19 51.80000054 50.9999996 90 N R2 1k_(0402) ;0=1,1=0.0000,5=0
+PRP Case_Code_(Imperial) '0402'
+PRP Case_Code_(Metric) '1005'
+PRP Case/Package '0402'
+PRP Construction 'Rectangular'
+PRP Depth '0.5mm'
+PRP Features 'Moisture Resistant'
+PRP Height '0.32mm'
+PRP Lead_Free 'Lead Free'
+PRP Length '1mm'
+PRP Max_Operating_Temperature '155°C'
+PRP Max_Power_Dissipation '63mW'
+PRP Military_Standard 'Not'
+PRP Min_Operating_Temperature '-55°C'
+PRP Number_of_Pins '2'
+PRP Number_of_Terminations '2'
+PRP Packaging 'Tape and Reel'
+PRP Power_Rating '62.5mW'
+PRP Reach_SVHC_Compliant 'Yes'
+PRP Resistance '1kR'
+PRP Resistance_Tolerance '1%'
+PRP Resistor_Type 'Thick Film'
+PRP RoHS_Compliant 'Yes'
+PRP Series 'RC'
+PRP Size_Code '0402'
+PRP Technology 'THICK FILM'
+PRP Temperature_Coefficient '100ppm/°C'
+PRP Termination 'SMD/SMT'
+PRP Tolerance '1%'
+PRP Voltage_Rating '50V'
+PRP Voltage_Rating_(DC) '50V'
+PRP Width '0.5mm'
+TOP 0 51.80000054 51.478561 90 N 6 0 1
+TOP 1 51.80000054 50.52143566 90 N 44 12 2
+#
+# CMP 7
+CMP 30 51.3999988 46.55000088 180 N 5V TEST_POINT ;0=2,1=0.3300,5=0
+TOP 0 51.3999988 46.55000088 180 N 44 7 1
+#
+# CMP 8
+CMP 0 27.55000078 40.5900001 90 N DEBUG 2Pin ;0=2,1=0.3300,5=0
+PRP Body_Breadth '0.092inch'
+PRP Body_Depth '0.09inch'
+PRP Body_Length '0.184inch'
+PRP Body/Shell_Style 'RECEPTACLE'
+PRP ComponentLink1Description ''
+PRP ComponentLink1URL ''
+PRP ComponentLink2Description ''
+PRP ComponentLink2URL ''
+PRP Connector_Type 'BOARD CONNECTOR'
+PRP Contact_Finish_-_Mating 'NOT SPECIFIED'
+PRP Contact_Finish_-_Termination 'TIN LEAD OVER NICKEL'
+PRP Contact_Gender 'Male'
+PRP Contact_Material 'Bronze'
+PRP Contact_Pattern 'RECTANGULAR'
+PRP Contact_Plating ''
+PRP Contact_Style 'SQ PIN-SKT'
+PRP Design_Item_ID 'CMP-002-00006-7'
+PRP Dielectric_Withstanding_Voltage_(AC) '750V'
+PRP DIN_Conformance 'No'
+PRP Filter_Feature 'No'
+PRP Flammability_Rating 'UL94 V-0'
+PRP Gender ''
+PRP IEC_Conformance 'No'
+PRP Insulation_Color 'Black'
+PRP Insulation_Material 'Thermoplastic'
+PRP Insulation_Resistance '5GR'
+PRP JESD-609_Code 'e0'
+PRP Manufacturer_1 ''
+PRP Manufacturer_Part_Number_1 ''
+PRP Mating_Contact_Pitch '0.1inch'
+PRP Mating_Information 'MULTIPLE MATING PARTS AVAILABLE'
+PRP Max_Operating_Temperature '105°C'
+PRP MIL_Conformance 'No'
+PRP Min_Operating_Temperature '-65°C'
+PRP Mixed_Contacts 'No'
+PRP Mount 'Board'
+PRP Mounting_Style 'STRAIGHT'
+PRP Number_Of_Connectors '1'
+PRP Number_of_Contacts '2'
+PRP Number_Of_PCB_Rows '1'
+PRP Number_of_Rows ''
+PRP Number_of_Rows_Loaded '1'
+PRP Option 'General Purpose'
+PRP Packaging ''
+PRP PCB_Contact_Pattern 'RECTANGULAR'
+PRP Pitch ''
+PRP Plating_Thickness '100uin'
+PRP Pricing_1 ''
+PRP Radiation_Hardening ''
+PRP Rated_Current_(Signal) '3A'
+PRP REACH_SVHC 'No SVHC'
+PRP Reference_Standard 'UL'
+PRP Reliability 'COMMERCIAL'
+PRP RoHS ''
+PRP RoHS_Compliant 'No'
+PRP Source 'Components - 16.09.22 - 20.27.SchLib'
+PRP Stock_1 ''
+PRP Terminal_Length '0.12inch'
+PRP Terminal_Pitch '2.54mm'
+PRP Termination 'Solder'
+TOP 0 27.55000078 40.5900001 90 N 39 43 1
+TOP 1 27.55000078 38.0500001 90 N 23 1 2
+#
+# CMP 9
+CMP 15 46.80000038 47.14999968 180 N C8 GRM32ER71A476ME15L ;0=1,1=0.3300,5=0
+PRP Capacitance '47uF'
+PRP Case_Code_(Imperial) '1210'
+PRP Case_Code_(Metric) '3225'
+PRP Case/Package '1210'
+PRP Depth '2.5mm'
+PRP Dielectric 'X7R'
+PRP Height '2.5mm'
+PRP Lead_Free 'Lead Free'
+PRP Length '3.2mm'
+PRP Max_Operating_Temperature '125°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Surface Mount'
+PRP Package_Quantity '1'
+PRP Packaging 'Tape and Reel'
+PRP Radiation_Hardening 'No'
+PRP REACH_SVHC 'No SVHC'
+PRP Termination 'SMD/SMT'
+PRP Thickness '0.106inch'
+PRP Tolerance '20%'
+PRP Voltage '10V'
+PRP Voltage_Rating '10V'
+PRP Voltage_Rating_(DC) '10V'
+PRP Width '0.098inch'
+TOP 0 48.05061256 47.14999968 180 N 44 5 1
+TOP 1 45.54938566 47.14999968 180 N 39 60 2
+#
+# CMP 10
+CMP 29 22.96918698 40.23852252 270 N J1 T1M-08-F-SH-L-K ;0=1,1=0.0000,5=0
+PRP Arrow_Part_Number ''
+PRP Arrow_Price/Stock ''
+PRP Datasheet_Link 'https://suddendocs.samtec.com/prints/t1m-xx-x-sh-l-x-xx-mkt.pdf?_gl=1*uq43fd*_gcl_au*ODYxNDQ2NDA1LjE3NjEzMDczOTg.*_ga*MTA1NTI3NDYyNy4xNjk0MTg3NDQy*_ga_3KFNZC07WW*czE3NjEzMDczOTckbzEzOCRnMSR0MTc2MTMwNzkyNyRqNTUkbDAkaDA.'
+PRP Height '4.6mm'
+PRP Manufacturer_Name 'SAMTEC'
+PRP Manufacturer_Part_Number 'T1M-08-F-SH-L-K'
+PRP Mouser_Part_Number '200-T1M08FSHLK'
+PRP Mouser_Price/Stock 'https://www.mouser.co.uk/ProductDetail/Samtec/T1M-08-F-SH-L-K?qs=PB6%2FjmICvI34CkCBlJWkQg%3D%3D'
+TOP 0 22.96918698 36.7385219 180 N 40 1 1
+TOP 1 22.96918698 37.73852244 180 N 8 1 2
+TOP 2 22.96918698 38.73852298 180 N 7 1 3
+TOP 3 22.96918698 39.73852352 180 N 14 1 4
+TOP 4 22.96918698 40.73852152 180 N 18 1 5
+TOP 5 22.96918698 41.73852206 180 N 45 10 6
+TOP 6 22.96918698 42.7385226 180 N 39 34 7
+TOP 7 22.96918698 43.73852314 180 N 39 48 8
+TOP 8 19.09418584 35.43852196 180 N 0 30 9
+TOP 9 19.09418584 45.03852308 180 N 0 31 10
+#
+# CMP 11
+CMP 22 56.9000005 31.09999876 90 N U1 RP2040-ZERO ;0=2,1=5.3500,5=0
+PRP Arrow_Part_Number ''
+PRP Arrow_Price/Stock ''
+PRP Check_prices 'https://www.snapeda.com/parts/RP2040-ZERO/Waveshare+Electronics/view-part/?ref=eda'
+PRP Component_Type 'Standard'
+PRP Datasheet_Link ''
+PRP Design_Item_ID 'RP2040-ZERO'
+PRP Height ''
+PRP Manufacturer_Name ''
+PRP Manufacturer_Part_Number ''
+PRP MF 'Waveshare Electronics'
+PRP Mouser_Part_Number ''
+PRP Mouser_Price/Stock ''
+PRP MP 'RP2040-ZERO'
+PRP Package 'Package'
+PRP Pin_Count '23'
+PRP SnapEDA_Link 'https://www.snapeda.com/parts/RP2040-ZERO/Waveshare+Electronics/view-part/?ref=snap'
+PRP Source 'RP2040-ZERO.SchLib'
+PRP Value ''
+TOP 0 67.0600005 23.47999876 90 N 11 1 1
+TOP 1 64.5200005 23.47999876 90 N 12 1 2
+TOP 2 61.9800005 23.47999876 90 N 43 1 3
+TOP 3 59.4400005 23.47999876 90 N 42 1 4
+TOP 4 56.9000005 23.47999876 90 N 38 1 5
+TOP 5 54.3600005 23.47999876 90 N 37 1 6
+TOP 6 51.8200005 23.47999876 90 N 35 1 7
+TOP 7 49.2800005 23.47999876 90 N 15 1 8
+TOP 8 46.7400005 23.47999876 90 N 13 1 9
+TOP 9 46.7400005 26.01999876 90 N 41 1 10
+TOP 10 46.7400005 28.55999876 90 N 36 1 11
+TOP 11 46.7400005 31.09999876 90 N 19 1 12
+TOP 12 46.7400005 33.63999876 90 N 17 1 13
+TOP 13 46.7400005 36.17999876 90 N 16 1 14
+TOP 14 46.7400005 38.71999876 90 N 0 42 15
+TOP 15 49.2800005 38.71999876 90 N 3 1 16
+TOP 16 51.8200005 38.71999876 90 N 0 41 17
+TOP 17 54.3600005 38.71999876 90 N 2 1 18
+TOP 18 56.9000005 38.71999876 90 N 1 1 19
+TOP 19 59.4400005 38.71999876 90 N 0 40 20
+TOP 20 61.9800005 38.71999876 90 N 34 2 21
+TOP 21 64.5200005 38.71999876 90 N 39 37 22
+TOP 22 67.0600005 38.71999876 90 N 24 2 23
+#
+# CMP 12
+CMP 17 43.7000015 53.20000028 270 N U3 LT8609SIV#PBF ;0=1,1=0.3300,5=0
+PRP Automotive 'No'
+PRP Category 'IC'
+PRP ComponentLink2Description 'Datasheet'
+PRP ComponentLink2URL 'https://www.analog.com/media/en/technical-documentation/data-sheets/LT8609S.pdf'
+PRP Device_Class_L1 'Integrated Circuits (ICs)'
+PRP Device_Class_L2 'Power Management ICs'
+PRP Device_Class_L3 'Voltage Regulators - Switching'
+PRP Digikey_Description 'IC REG BUCK ADJUSTABLE 2A 16LQFN'
+PRP Height '1.03mm'
+PRP Lead_Free 'Yes'
+PRP Manufacturer 'Analog Devices'
+PRP Manufacturer_Part_Number 'LT8609SIV#PBF'
+PRP Max_Duty_Cycle '100%'
+PRP Max_Junction_Temp '+125°C'
+PRP Max_Supply_Voltage '42V'
+PRP Min_Supply_Voltage '3V'
+PRP Mouser_Description 'LT8609S - 42V, 2A/3A Peak Synchronous Step-Down Regulator with 2.5µA Quiescent Current'
+PRP Nominal_Supply_Current '1-1.7uA'
+PRP Number_of_Outputs '1'
+PRP Octopart 'https://octopart.com/lt8609siv%23pbf-analog+devices-88316701'
+PRP Output_Current '2A'
+PRP Output_Type 'AdjustableProgrammable'
+PRP Package 'LQFN-16-05-08-1516'
+PRP RoHS 'TRUE'
+PRP Standoff_Height '0.01mm'
+PRP Switching_Frequency '200-2200kHz'
+PRP Switching_Topology 'Buck'
+PRP Temperature '-40°C to +125°C'
+PRP Temperature_Range_High '+125°C'
+PRP Temperature_Range_Low '-40°C'
+TOP 0 42.95000046 51.80000054 270 N 20 1 1
+TOP 1 43.450002 51.80000054 270 N 9 2 2
+TOP 2 43.950001 51.80000054 270 N 39 92 3
+TOP 3 44.45000254 51.80000054 270 N 39 90 4
+TOP 4 45.10000124 52.44999924 270 N 22 2 5
+TOP 5 45.10000124 52.95000078 270 N 22 3 6
+TOP 6 45.10000124 53.44999978 270 N 39 95 7
+TOP 7 45.10000124 53.95000132 270 N 39 93 8
+TOP 8 44.45000254 54.60000002 270 N 10 4 9
+TOP 9 43.950001 54.60000002 270 N 10 7 10
+TOP 10 43.450002 54.60000002 270 N 10 6 11
+TOP 11 42.95000046 54.60000002 270 N 0 22 12
+TOP 12 42.30000176 53.95000132 270 N 31 1 13
+TOP 13 42.30000176 53.44999978 270 N 39 89 14
+TOP 14 42.30000176 52.95000078 270 N 30 0 15
+TOP 15 42.30000176 52.44999924 270 N 9 1 16
+TOP 16 43.7000015 53.20000028 270 N 39 96 17
+TOP 17 42.38750222 51.887501 270 N 39 91 18
+TOP 18 42.38750222 54.51249956 270 N 39 97 19
+TOP 19 45.01250078 51.887501 270 N 39 88 20
+TOP 20 45.01250078 54.51249956 270 N 39 94 21
+#
+# CMP 13
+CMP 11 28.69999848 46.55000088 90 N U2 LM66100DCKT ;0=1,1=0.3300,5=0
+TOP 0 29.34999718 47.3200984 90 N 45 14 1
+TOP 1 28.69999848 47.3200984 90 N 39 69 2
+TOP 2 28.04999724 47.3200984 90 N 34 3 3
+TOP 3 28.04999724 45.77990336 90 N 0 6 4
+TOP 4 28.69999848 45.77990336 90 N 39 67 5
+TOP 5 29.34999718 45.77990336 90 N 34 1 6
+#
+# CMP 14
+CMP 19 30.84999926 48.29999992 90 N R8 1k_(0402) ;0=1,1=0.0000,5=0
+PRP Case_Code_(Imperial) '0402'
+PRP Case_Code_(Metric) '1005'
+PRP Case/Package '0402'
+PRP Construction 'Rectangular'
+PRP Depth '0.5mm'
+PRP Features 'Moisture Resistant'
+PRP Height '0.32mm'
+PRP Lead_Free 'Lead Free'
+PRP Length '1mm'
+PRP Max_Operating_Temperature '155°C'
+PRP Max_Power_Dissipation '63mW'
+PRP Military_Standard 'Not'
+PRP Min_Operating_Temperature '-55°C'
+PRP Number_of_Pins '2'
+PRP Number_of_Terminations '2'
+PRP Packaging 'Tape and Reel'
+PRP Power_Rating '62.5mW'
+PRP Reach_SVHC_Compliant 'Yes'
+PRP Resistance '1kR'
+PRP Resistance_Tolerance '1%'
+PRP Resistor_Type 'Thick Film'
+PRP RoHS_Compliant 'Yes'
+PRP Series 'RC'
+PRP Size_Code '0402'
+PRP Technology 'THICK FILM'
+PRP Temperature_Coefficient '100ppm/°C'
+PRP Termination 'SMD/SMT'
+PRP Tolerance '1%'
+PRP Voltage_Rating '50V'
+PRP Voltage_Rating_(DC) '50V'
+PRP Width '0.5mm'
+TOP 0 30.84999926 48.77856132 90 N 26 0 1
+TOP 1 30.84999926 47.82143598 90 N 45 15 2
+#
+# CMP 15
+CMP 19 32.0999993 48.29999992 90 N R7 1k_(0402) ;0=1,1=0.0000,5=0
+PRP Case_Code_(Imperial) '0402'
+PRP Case_Code_(Metric) '1005'
+PRP Case/Package '0402'
+PRP Construction 'Rectangular'
+PRP Depth '0.5mm'
+PRP Features 'Moisture Resistant'
+PRP Height '0.32mm'
+PRP Lead_Free 'Lead Free'
+PRP Length '1mm'
+PRP Max_Operating_Temperature '155°C'
+PRP Max_Power_Dissipation '63mW'
+PRP Military_Standard 'Not'
+PRP Min_Operating_Temperature '-55°C'
+PRP Number_of_Pins '2'
+PRP Number_of_Terminations '2'
+PRP Packaging 'Tape and Reel'
+PRP Power_Rating '62.5mW'
+PRP Reach_SVHC_Compliant 'Yes'
+PRP Resistance '1kR'
+PRP Resistance_Tolerance '1%'
+PRP Resistor_Type 'Thick Film'
+PRP RoHS_Compliant 'Yes'
+PRP Series 'RC'
+PRP Size_Code '0402'
+PRP Technology 'THICK FILM'
+PRP Temperature_Coefficient '100ppm/°C'
+PRP Termination 'SMD/SMT'
+PRP Tolerance '1%'
+PRP Voltage_Rating '50V'
+PRP Voltage_Rating_(DC) '50V'
+PRP Width '0.5mm'
+TOP 0 32.0999993 48.77856132 90 N 27 1 1
+TOP 1 32.0999993 47.82143598 90 N 45 13 2
+#
+# CMP 16
+CMP 25 33.29999944 48.29999992 90 N R6 10k ;0=1,1=0.4000,5=0
+PRP Manufacturer 'Panasonic'
+PRP Part_Number 'ERJ-2GEJ103X'
+TOP 0 33.29999944 48.79999892 0 N 25 2 1
+TOP 1 33.29999944 47.79999838 0 N 45 11 2
+#
+# CMP 17
+CMP 7 39.97677806 53.05656648 0 N R5 182k ;0=1,1=0.3300,5=0
+PRP Case_Code_(Imperial) '0402'
+PRP Case_Code_(Metric) '1005'
+PRP Case/Package '0402'
+PRP Features 'Moisture Resistant'
+PRP Height '0.015inch'
+PRP Length '0.039inch'
+PRP Max_Operating_Temperature '155°C'
+PRP Max_Power_Dissipation '63mW'
+PRP Min_Operating_Temperature '-55°C'
+PRP Number_of_Terminations '2'
+PRP Packaging 'Tape and Reel'
+PRP Power_Rating '62.5mW'
+PRP Resistance '182kR'
+PRP Resistor_Type 'Thick Film'
+PRP RoHS_Compliant 'Yes'
+PRP Series 'AC'
+PRP Temperature_Coefficient '100ppm/°C'
+PRP Termination 'SMD/SMT'
+PRP Tolerance '1%'
+PRP Voltage_Rating '50V'
+PRP Weight '2.3E-05oz'
+PRP Width '0.5mm'
+TOP 0 39.59821646 53.05656648 0 N 39 61 1
+TOP 1 40.3553422 53.05656648 0 N 31 2 2
+#
+# CMP 18
+CMP 32 1310.10000108 1320.5000006 0 N R4 18.2k ;0=1,1=0.3500,5=0
+PRP Height '350µm'
+PRP Length '1mm'
+PRP Lifecycle_Status 'Production'
+PRP Manufacturer_Lifecycle_Status 'ACTIVE'
+PRP Max_Operating_Temperature '155°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Resistance '18.2kO'
+PRP RoHS 'Compliant'
+PRP Width '500µm'
+PRP YEOL '1 = Estimated lifetime > 10 years'
+TOP 0 39.60000208 50.5000006 0 N 39 57 1
+TOP 1 40.60000008 50.5000006 0 N 20 0 2
+#
+# CMP 19
+CMP 26 39.97677806 53.95656722 180 N R3 1M ;0=1,1=0.4000,5=0
+PRP Manufacturer 'Yageo / Phycomp'
+PRP Part_Number 'RC0402FR-071ML'
+TOP 0 40.40177848 53.95656722 90 N 31 0 1
+TOP 1 39.55177764 53.95656722 90 N 44 10 2
+#
+# CMP 20
+CMP 24 28.85000072 57.1999999 0 N R1 5k_0402 ;0=1,1=0.4000,5=0
+PRP Case/Package ''
+PRP ComponentLink1Description ''
+PRP ComponentLink1URL ''
+PRP ComponentLink2Description ''
+PRP ComponentLink2URL ''
+PRP ComponentLink3Description ''
+PRP ComponentLink3URL ''
+PRP ComponentLink4Description ''
+PRP ComponentLink4URL ''
+PRP Current_-_Output_1 ''
+PRP Design_Item_ID ''
+PRP Efficiency ''
+PRP Features ''
+PRP Height ''
+PRP Lead_Free ''
+PRP Length ''
+PRP Manufacturer_1 ''
+PRP Manufacturer_Part_Number_1 ''
+PRP Max_Input_Voltage ''
+PRP Max_Operating_Temperature ''
+PRP Max_Output_Current ''
+PRP Max_Output_Voltage ''
+PRP Max_Power_Dissipation ''
+PRP Min_Input_Voltage ''
+PRP Min_Operating_Temperature ''
+PRP Mount ''
+PRP Number_of_Outputs ''
+PRP Output_Power ''
+PRP Package_Quantity ''
+PRP Packaging ''
+PRP Power '63mW'
+PRP Pricing_1 ''
+PRP Resistance '5k'
+PRP RoHS ''
+PRP Source ''
+PRP Stock_1 ''
+PRP Tolerance '1%'
+PRP Voltage_-_Output_1 ''
+PRP Weight ''
+PRP Width ''
+TOP 0 28.4250003 57.1999999 270 N 39 65 1
+TOP 1 29.27500114 57.1999999 270 N 21 0 2
+#
+# CMP 21
+CMP 4 34.54999948 51.31229768 270 N Q2 BSS138 ;0=1,1=0.3300,5=0
+PRP Case/Package 'SOT-23'
+PRP Contact_Plating 'Tin'
+PRP Continuous_Drain_Current_(ID) '220mA'
+PRP Current_Rating '220mA'
+PRP Drain_to_Source_Breakdown_Voltage '50V'
+PRP Drain_to_Source_Resistance '3.5R'
+PRP Drain_to_Source_Voltage_(Vdss) '50V'
+PRP Dual_Supply_Voltage '50V'
+PRP Element_Configuration 'Single'
+PRP Fall_Time '9ns'
+PRP Gate_to_Source_Voltage_(Vgs) '20V'
+PRP Height '0.93mm'
+PRP Input_Capacitance '27pF'
+PRP Lead_Free 'Lead Free'
+PRP Length '2.92mm'
+PRP Max_Operating_Temperature '150°C'
+PRP Max_Power_Dissipation '360mW'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Surface Mount'
+PRP Nominal_Vgs '1.3V'
+PRP Number_of_Elements '1'
+PRP Number_of_Pins '3'
+PRP On-State_Resistance '6R'
+PRP Package_Quantity '1'
+PRP Packaging 'Tape and Reel'
+PRP Power_Dissipation '360mW'
+PRP Radiation_Hardening 'No'
+PRP Rds_On_Max '3.5R'
+PRP REACH_SVHC 'No SVHC'
+PRP Rise_Time '9ns'
+PRP Termination 'SMD/SMT'
+PRP Threshold_Voltage '1.3V'
+PRP Turn-Off_Delay_Time '20ns'
+PRP Turn-On_Delay_Time '2.5ns'
+PRP Voltage_Rating_(DC) '50V'
+PRP Weight '0.03g'
+PRP Width '1.3mm'
+TOP 0 33.59999884 50.40211154 270 N 25 1 1
+TOP 1 35.50000012 50.40211154 270 N 39 56 2
+TOP 2 34.54999948 52.22248636 270 N 28 1 3
+#
+# CMP 22
+CMP 28 28.39999908 59.89999958 270 N Q1 FDC610PZ ;0=1,1=0.3300,5=0
+PRP Arrow_Part_Number 'FDC610PZ'
+PRP Arrow_Price/Stock 'https://www.arrow.com/en/products/fdc610pz/on-semiconductor'
+PRP Datasheet_Link 'https://www.onsemi.com/pub/Collateral/FDC610PZ-D.PDF'
+PRP Height '1.1mm'
+PRP Manufacturer_Name 'onsemi'
+PRP Manufacturer_Part_Number 'FDC610PZ'
+PRP Mouser_Part_Number '512-FDC610PZ'
+PRP Mouser_Price/Stock 'https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/FDC610PZ?qs=6olcXJbp99R1vIAdhgXLVw%3D%3D'
+TOP 0 27.44999844 58.64999954 270 N 29 4 1
+TOP 1 28.39999908 58.64999954 270 N 29 7 2
+TOP 2 29.34999972 58.64999954 270 N 21 1 3
+TOP 3 29.34999972 61.14999962 270 N 33 2 4
+TOP 4 28.39999908 61.14999962 270 N 29 8 5
+TOP 5 27.44999844 61.14999962 270 N 29 5 6
+#
+# CMP 23
+CMP 8 34.17000024 19.320002 180 N MD1 BM83SM1-00AB ;0=1,1=0.3300,5=0
+TOP 0 41.42000098 14.42000164 180 N 0 35 1
+TOP 1 41.42000098 15.42000218 180 N 15 2 2
+TOP 2 41.42000098 16.42000272 180 N 13 2 3
+TOP 3 41.42000098 17.42000326 180 N 41 2 4
+TOP 4 41.42000098 18.42000126 180 N 36 2 5
+TOP 5 41.42000098 19.4200018 180 N 0 34 6
+TOP 6 41.42000098 20.42000234 180 N 0 33 7
+TOP 7 41.42000098 21.42000288 180 N 0 52 8
+TOP 8 41.42000098 22.42000088 180 N 0 51 9
+TOP 9 41.42000098 23.42000142 180 N 0 50 10
+TOP 10 41.42000098 24.42000196 180 N 0 55 11
+TOP 11 41.42000098 25.4200025 180 N 0 54 12
+TOP 12 41.42000098 26.42000304 180 N 0 53 13
+TOP 13 41.42000098 27.42000104 180 N 0 49 14
+TOP 14 41.42000098 28.42000158 180 N 0 45 15
+TOP 15 41.42000098 29.42000212 180 N 39 74 16
+TOP 16 41.42000098 30.42000266 180 N 0 44 17
+TOP 17 41.42000098 31.4200032 180 N 0 43 18
+TOP 18 41.42000098 32.4200012 180 N 0 48 19
+TOP 19 41.42000098 33.42000174 180 N 0 47 20
+TOP 20 38.6700014 35.07000098 180 N 0 5 21
+TOP 21 37.67000086 35.07000098 180 N 24 1 22
+TOP 22 36.67000032 35.07000098 180 N 45 6 23
+TOP 23 35.66999978 35.07000098 180 N 0 4 24
+TOP 24 34.66999924 35.07000098 180 N 0 3 25
+TOP 25 33.67000124 35.07000098 180 N 17 2 26
+TOP 26 32.6700007 35.07000098 180 N 0 8 27
+TOP 27 31.67000016 35.07000098 180 N 0 7 28
+TOP 28 30.66999962 35.07000098 180 N 11 2 29
+TOP 29 29.66999908 35.07000098 180 N 12 2 30
+TOP 30 26.9199995 33.42000174 180 N 23 0 31
+TOP 31 26.9199995 32.4200012 180 N 0 46 32
+TOP 32 26.9199995 31.4200032 180 N 18 0 33
+TOP 33 26.9199995 30.42000266 180 N 0 29 34
+TOP 34 26.9199995 29.42000212 180 N 0 12 35
+TOP 35 26.9199995 28.42000158 180 N 4 2 36
+TOP 36 26.9199995 27.42000104 180 N 5 2 37
+TOP 37 26.9199995 26.42000304 180 N 14 0 38
+TOP 38 26.9199995 25.4200025 180 N 7 0 39
+TOP 39 26.9199995 24.42000196 180 N 8 0 40
+TOP 40 26.9199995 23.42000142 180 N 0 11 41
+TOP 41 26.9199995 22.42000088 180 N 0 10 42
+TOP 42 26.9199995 21.42000288 180 N 19 2 43
+TOP 43 26.9199995 20.42000234 180 N 40 0 44
+TOP 44 26.9199995 19.4200018 180 N 0 15 45
+TOP 45 26.9199995 18.42000126 180 N 0 14 46
+TOP 46 26.9199995 17.42000326 180 N 0 13 47
+TOP 47 26.9199995 16.42000272 180 N 0 9 48
+TOP 48 26.9199995 15.42000218 180 N 35 2 49
+TOP 49 26.9199995 14.42000164 180 N 39 51 50
+TOP 50 29.39999962 24.8500011 180 N 39 70 56
+TOP 51 37.46000128 14.740001 180 N 39 75 57
+#
+# CMP 24
+CMP 20 48.64999922 51.66500208 90 N L2 XGL4020-222MEC ;0=1,1=0.3300,5=0
+TOP 0 48.64999922 52.85000098 90 N 22 1 1
+TOP 1 48.64999922 50.48000318 90 N 44 6 2
+#
+# CMP 25
+CMP 33 40.30000068 60.00000192 90 N L1 XGL3520-472MEC ;0=1,1=0.3300,5=0
+PRP Arrow_Part_Number ''
+PRP Arrow_Price/Stock ''
+PRP Datasheet_Link 'https://www.coilcraft.com/getmedia/d18b8771-c466-42ab-98b9-5b7a3721ea57/xgl3520.pdf?srsltid=AfmBOoq9-uDh3EmdFKVY7cd9_AL22AmMmwAAQ9UBadXdflM2b3sgRKIR'
+PRP Height '2mm'
+PRP Manufacturer_Name 'COILCRAFT'
+PRP Manufacturer_Part_Number 'XGL3520-472MEC'
+PRP Mouser_Part_Number ''
+PRP Mouser_Price/Stock ''
+TOP 0 40.30000068 60.90000266 0 N 32 3 1
+TOP 1 40.30000068 59.10000118 0 N 10 2 2
+#
+# CMP 26
+CMP 21 58.49999984 53.44999978 270 N J5 LSHM-120-04.0-L-DV-A-S-K-TR ;0=1,1=0.3300,5=0
+PRP Arrow_Part_Number 'LSHM-120-04.0-L-DV-A-S-K-TR'
+PRP Arrow_Price/Stock 'https://www.arrow.com/en/products/lshm-120-04.0-l-dv-a-sktr/samtec?region=nac'
+PRP Datasheet_Link 'http://suddendocs.samtec.com/prints/lshm-1xx-xx.x-xxx-dv-a-x-x-xx-mkt.pdf'
+PRP Manufacturer_Name 'SAMTEC'
+PRP Manufacturer_Part_Number 'LSHM-120-04.0-L-DV-A-S-K-TR'
+PRP Mouser_Part_Number '200-LSHM12004LDVASK'
+PRP Mouser_Price/Stock 'https://www.mouser.co.uk/ProductDetail/Samtec/LSHM-120-040-L-DV-A-S-K-TR?qs=PB6%2FjmICvI1v5WBlLc04lg%3D%3D'
+TOP 0 60.34999868 58.20000044 180 N 39 19 1
+TOP 1 56.650001 58.20000044 180 N 44 13 2
+TOP 2 60.34999868 57.6999989 180 N 39 20 3
+TOP 3 56.650001 57.6999989 180 N 39 17 4
+TOP 4 60.34999868 57.1999999 180 N 44 4 5
+TOP 5 56.650001 57.1999999 180 N 39 14 6
+TOP 6 60.34999868 56.7000009 180 N 39 21 7
+TOP 7 56.650001 56.7000009 180 N 39 16 8
+TOP 8 60.34999868 56.19999936 180 N 39 15 9
+TOP 9 56.650001 56.19999936 180 N 39 29 10
+TOP 10 60.34999868 55.70000036 180 N 39 22 11
+TOP 11 56.650001 55.70000036 180 N 44 9 12
+TOP 12 60.34999868 55.19999882 180 N 44 8 13
+TOP 13 56.650001 55.19999882 180 N 39 30 14
+TOP 14 60.34999868 54.69999982 180 N 39 23 15
+TOP 15 56.650001 54.69999982 180 N 39 33 16
+TOP 16 60.34999868 54.20000082 180 N 39 18 17
+TOP 17 56.650001 54.20000082 180 N 39 31 18
+TOP 18 60.34999868 53.69999928 180 N 39 24 19
+TOP 19 56.650001 53.69999928 180 N 39 86 20
+TOP 20 60.34999868 53.20000028 180 N 37 2 21
+TOP 21 56.650001 53.20000028 180 N 16 2 22
+TOP 22 60.34999868 52.69999874 180 N 39 25 23
+TOP 23 56.650001 52.69999874 180 N 39 85 24
+TOP 24 60.34999868 52.19999974 180 N 39 28 25
+TOP 25 56.650001 52.19999974 180 N 3 2 26
+TOP 26 60.34999868 51.70000074 180 N 43 2 27
+TOP 27 56.650001 51.70000074 180 N 39 77 28
+TOP 28 60.34999868 51.1999992 180 N 39 27 29
+TOP 29 56.650001 51.1999992 180 N 39 78 30
+TOP 30 60.34999868 50.7000002 180 N 42 2 31
+TOP 31 56.650001 50.7000002 180 N 2 2 32
+TOP 32 60.34999868 50.19999866 180 N 39 26 33
+TOP 33 56.650001 50.19999866 180 N 39 79 34
+TOP 34 60.34999868 49.69999966 180 N 38 2 35
+TOP 35 56.650001 49.69999966 180 N 1 2 36
+TOP 36 60.34999868 49.20000066 180 N 39 84 37
+TOP 37 56.650001 49.20000066 180 N 39 81 38
+TOP 38 60.34999868 48.69999912 180 N 39 82 39
+TOP 39 56.650001 48.69999912 180 N 39 80 40
+TOP 40 59.35000068 59.45000048 270 N 0 37 41
+TOP 41 59.35000068 47.44999908 270 N 0 38 42
+TOP 42 57.3499996 60.9249988 270 N 39 39 43
+TOP 43 57.3499996 45.97500076 270 N 39 35 44
+#
+# CMP 27
+CMP 27 38.0000002 46.40000118 0 N IC1 NCV8187AMLE330TCG ;0=1,1=0.3300,5=0
+PRP Arrow_Part_Number 'NCV8187AMLE330TCG'
+PRP Arrow_Price/Stock 'https://www.arrow.com/en/products/ncv8187amle330tcg/on-semiconductor?region=nac'
+PRP Datasheet_Link 'https://www.onsemi.com/pub/Collateral/NCV8187-D.PDF'
+PRP Height '1mm'
+PRP Manufacturer_Name 'onsemi'
+PRP Manufacturer_Part_Number 'NCV8187AMLE330TCG'
+PRP Mouser_Part_Number '863-CV8187AMLE330TCG'
+PRP Mouser_Price/Stock 'https://www.mouser.co.uk/ProductDetail/onsemi/NCV8187AMLE330TCG?qs=HBWAp0VN4RhK8HbhfCLXcQ%3D%3D'
+TOP 0 36.50000066 47.3750005 0 N 45 9 1
+TOP 1 36.50000066 46.7250018 0 N 45 5 2
+TOP 2 36.50000066 46.07500056 0 N 25 0 3
+TOP 3 36.50000066 45.42500186 0 N 0 18 4
+TOP 4 39.49999974 45.42500186 0 N 39 66 5
+TOP 5 39.49999974 46.07500056 0 N 0 17 6
+TOP 6 39.49999974 46.7250018 0 N 44 15 7
+TOP 7 39.49999974 47.3750005 0 N 44 16 8
+TOP 8 38.0000002 46.40000118 270 N 39 73 9
+#
+# CMP 28
+CMP 2 34.00000058 60.80000032 0 N FB1 MPZ2012S601ATD25 ;0=1,1=0.3300,5=0
+PRP Arrow_Part_Number 'MPZ2012S601ATD25'
+PRP Arrow_Price/Stock 'https://www.arrow.com/en/products/mpz2012s601atd25/tdk.html?utm_currency=USD&region=europe'
+PRP Datasheet_Link 'https://product.tdk.com/system/files/dam/doc/product/emc/emc/beads/catalog/beads_automotive_power_mpz2012_en.pdf'
+PRP Design_Item_ID 'MPZ2012S601ATD25'
+PRP Height '1.05mm'
+PRP Manufacturer_Name 'TDK'
+PRP Manufacturer_Part_Number 'MPZ2012S601ATD25'
+PRP Mouser_Part_Number '810-MPZ2012S601ATD25'
+PRP Mouser_Price/Stock 'https://www.mouser.co.uk/ProductDetail/TDK/MPZ2012S601ATD25?qs=n0%2F4YYxsltT7vo9AjVUU7w%3D%3D'
+PRP Source 'SamacSys.SchLib'
+TOP 0 33.14999974 60.80000032 270 N 33 3 1
+TOP 1 34.85000142 60.80000032 270 N 32 4 2
+#
+# CMP 29
+CMP 18 30.79999936 51.75000064 90 N POWER QBLP595-IB ;0=1,1=0.0000,5=0
+PRP Case_Code_(Imperial) '0402'
+PRP Case_Code_(Metric) '1005'
+PRP Case/Package '0402'
+PRP Color 'Blue'
+PRP Dominant_Wavelength '465nm'
+PRP Forward_Voltage '3.1V'
+PRP Height '0.6mm'
+PRP Length '1mm'
+PRP Lens_Color 'Colorless'
+PRP Lens_Size '0.5mm'
+PRP Lens_Style 'Flat'
+PRP Lens_Transparency 'Clear'
+PRP Luminous_Intensity '85mcd'
+PRP Mount 'Surface Mount'
+PRP Packaging 'Tape and Reel'
+PRP Test_Current '20mA'
+PRP Viewing_Angle '140°'
+PRP Width '0.5mm'
+TOP 0 30.79999936 52.24999964 90 N 39 58 1
+TOP 1 30.79999936 51.25000164 90 N 26 1 2
+#
+# CMP 30
+CMP 13 40.60000008 46.34999874 90 N C13 1uF ;0=1,1=0.3300,5=0
+TOP 0 40.60000008 46.72856034 90 N 44 11 1
+TOP 1 40.60000008 45.9714346 90 N 39 59 2
+#
+# CMP 31
+CMP 14 34.79999898 46.0110205 90 N C12 10uF ;0=1,1=0.3300,5=0
+TOP 0 34.79999898 46.50000098 90 N 45 7 1
+TOP 1 34.79999898 45.52204002 90 N 39 72 2
+#
+# CMP 32
+CMP 12 39.97678568 51.97742462 180 N C11 10nF ;0=1,1=0.3300,5=0
+PRP Capacitance '10nF'
+PRP Case_Code_(Imperial) '0402'
+PRP Case_Code_(Metric) '1005'
+PRP Case/Package '0402'
+PRP Depth '0.5mm'
+PRP Dielectric 'X7R'
+PRP Height '0.5mm'
+PRP Lead_Free 'Lead Free'
+PRP Length '1mm'
+PRP Max_Operating_Temperature '125°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Surface Mount'
+PRP Package_Quantity '1'
+PRP Packaging 'Tape and Reel'
+PRP Radiation_Hardening 'No'
+PRP Ratings 'AEC-Q200'
+PRP REACH_SVHC 'No SVHC'
+PRP Termination 'SMD/SMT'
+PRP Thickness '0.022inch'
+PRP Tolerance '10%'
+PRP Voltage '50V'
+PRP Voltage_Rating '50V'
+PRP Voltage_Rating_(DC) '50V'
+PRP Width '0.02inch'
+TOP 0 40.35534728 51.97742462 180 N 30 1 1
+TOP 1 39.59822154 51.97742462 180 N 39 64 2
+#
+# CMP 33
+CMP 16 43.49999936 49.59999986 90 N C10 1uF ;0=1,1=0.3300,5=0
+TOP 0 43.49999936 50.07624732 90 N 9 0 1
+TOP 1 43.49999936 49.1237524 90 N 39 38 2
+#
+# CMP 34
+CMP 12 39.97677806 54.95656776 180 N C9 10pF ;0=1,1=0.3300,5=0
+PRP Capacitance '10pF'
+PRP Case_Code_(Imperial) '0402'
+PRP Case_Code_(Metric) '1005'
+PRP Case/Package '0402'
+PRP Dielectric 'C0G'
+PRP Height '0.5mm'
+PRP Lead_Free 'Lead Free'
+PRP Length '0.039inch'
+PRP Max_Operating_Temperature '125°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Surface Mount'
+PRP Package_Quantity '10000'
+PRP Packaging 'Tape and Reel'
+PRP Ratings 'AEC-Q200'
+PRP REACH_SVHC 'No SVHC'
+PRP Termination 'SMD/SMT'
+PRP Thickness '0.022inch'
+PRP Tolerance '5%'
+PRP Voltage_Rating '50V'
+PRP Voltage_Rating_(DC) '50V'
+PRP Weight '0.000212oz'
+PRP Width '0.02inch'
+TOP 0 40.35533966 54.95656776 180 N 31 3 1
+TOP 1 39.59821392 54.95656776 180 N 44 14 2
+#
+# CMP 35
+CMP 10 45.15000114 56.4000015 0 N C7 4.7uF ;0=1,1=0.3300,5=0
+TOP 0 44.17500182 56.4000015 0 N 10 5 1
+TOP 1 46.12500046 56.4000015 0 N 39 87 2
+#
+# CMP 36
+CMP 10 36.69378234 60.24999888 90 N C6 4.7uF ;0=1,1=0.3300,5=0
+TOP 0 36.69378234 61.2249982 90 N 32 2 1
+TOP 1 36.69378234 59.27499956 90 N 39 62 2
+#
+# CMP 37
+CMP 10 31.29999836 60.24999888 90 N C5 4.7uF ;0=1,1=0.3300,5=0
+TOP 0 31.29999836 61.2249982 90 N 33 1 1
+TOP 1 31.29999836 59.27499956 90 N 39 63 2
+#
+# CMP 38
+CMP 9 62.59999926 41.85000012 180 N C3 0.1uF ;0=1,1=0.3300,5=0
+PRP Capacitance '100nF'
+PRP Dielectric 'XR7'
+PRP ESR ''
+PRP Tolerance '10%'
+PRP Voltage_Rating '16V'
+TOP 0 63.0521472 41.85000012 180 N 39 83 1
+TOP 1 62.14785132 41.85000012 180 N 34 5 2
+#
+# CMP 39
+CMP 13 62.60856414 42.95000046 0 N C2 1uF ;0=1,1=0.3300,5=0
+TOP 0 62.23000254 42.95000046 0 N 34 4 1
+TOP 1 62.98712828 42.95000046 0 N 39 55 2
+#

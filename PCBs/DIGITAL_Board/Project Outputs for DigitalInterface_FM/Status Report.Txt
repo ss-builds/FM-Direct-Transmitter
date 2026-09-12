@@ -1,0 +1,38 @@
+Output: ODB++ Files
+Type  : ODB
+From  : Variant [[No Variations]] of Project [DigitalInterface_FM.PrjPcb]
+   Generated File[profile]
+   Generated File[stephdr]
+   Generated File[features]
+   Generated File[features]
+   Generated File[features]
+   Generated File[features]
+   Generated File[features]
+   Generated File[tools]
+   Generated File[features]
+   Generated File[features]
+   Generated File[features]
+   Generated File[features]
+   Generated File[tools]
+   Generated File[features]
+   Generated File[features]
+   Generated File[features]
+   Generated File[features]
+   Generated File[features]
+   Generated File[features]
+   Generated File[features]
+   Generated File[components]
+   Generated File[features]
+   Generated File[components]
+   Generated File[features]
+   Generated File[tools]
+   Generated File[data]
+   Generated File[netlist]
+   Generated File[matrix]
+   Generated File[DI_FM.REP]
+
+
+Files Generated   : 29
+Documents Printed : 0
+
+Finished Output Generation At 0:50:53 On 8/11/2026

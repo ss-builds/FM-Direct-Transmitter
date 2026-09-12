@@ -1,0 +1,101 @@
+UNITS=MM
+#
+#Component attribute names
+#
+@0 .comp_mount_type
+@1 .comp_height
+@2 .no_pop
+@3 .comp_ignore
+@4 .comp_variant_list
+@5 .placement_layer
+
+#
+#Component attribute text strings
+#
+&0 bottom_layer
+
+# CMP 0
+CMP 5 20.40221218 27.7209377 270 N D3 SZESD1L001W1T2G ;0=1,1=0.3300,5=0
+PRP Breakdown_Voltage '16.5V'
+PRP Capacitance '200fF'
+PRP Direction 'Unidirectional'
+PRP Height '1.1mm'
+PRP Lifecycle_Status 'Production'
+PRP Manufacturer_Lifecycle_Status 'ACTIVE'
+PRP Max_Junction_Temperature_(Tj) '125°C'
+PRP Max_Operating_Temperature '125°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP NexarPartId '82193701'
+PRP Number_of_Channels '4'
+PRP Packaging 'Cut Tape'
+PRP Peak_Pulse_Current '30A'
+PRP Reverse_Standoff_Voltage '5V'
+PRP RoHS 'Compliant'
+TOP 0 21.05221342 26.80089128 270 N 0 19 1
+TOP 1 20.40221218 26.80089128 270 N 5 1 2
+TOP 2 19.75221094 26.80089128 270 N 39 49 3
+TOP 3 19.75221094 28.64098412 270 N 4 1 4
+TOP 4 20.40221218 28.64098412 270 N 0 20 5
+TOP 5 21.05221342 28.64098412 270 N 39 47 6
+#
+# CMP 1
+CMP 3 46.80000038 59.20000098 180 N C4 HHXC500ARA330MF80G ;0=1,1=0.0000,5=0
+PRP Arrow_Part_Number 'HHXC500ARA330MF80G'
+PRP Arrow_Price/Stock 'null?utm_currency=USD&region=nac'
+PRP Datasheet_Link 'https://www.digikey.com/en/products/detail/chemi-con/HHXC500ARA330MF80G/6928175'
+PRP Height '8mm'
+PRP Manufacturer_Name 'Chemi-Con'
+PRP Manufacturer_Part_Number 'HHXC500ARA330MF80G'
+PRP Mouser_Part_Number '661-HHXC500A330MF80G'
+PRP Mouser_Price/Stock 'https://www.mouser.co.uk/ProductDetail/Chemi-Con/HHXC500ARA330MF80G?qs=u4fy%2FsgLU9MsXjhGLyQcVQ%3D%3D'
+TOP 0 44.2000005 59.20000098 0 N 10 3 1
+TOP 1 49.40000026 59.20000098 0 N 39 52 2
+#
+# CMP 2
+CMP 1 21.34999286 60.00000192 270 N J4 215760-1002 ;0=2,1=0.3300,5=0
+PRP ComponentLink1Description ''
+PRP ComponentLink1URL ''
+PRP ComponentLink2Description ''
+PRP ComponentLink2URL ''
+PRP Contact_Plating ''
+PRP Design_Item_ID ''
+PRP Gender ''
+PRP Manufacturer_1 'Molex'
+PRP Manufacturer_Part_Number_1 '215760-1002'
+PRP Number_of_Contacts '2'
+PRP Number_of_Rows '1'
+PRP Packaging ''
+PRP Pitch ''
+PRP Pricing_1 ''
+PRP Radiation_Hardening ''
+PRP RoHS ''
+PRP Source ''
+PRP Stock_1 ''
+PRP Termination ''
+TOP 0 25.66799286 61.65100192 270 N 29 6 1
+TOP 1 25.66799286 58.65100284 270 N 39 36 2
+TOP 2 21.36799384 60.15100238 270 N 0 39 3
+#
+# CMP 3
+CMP 23 28.29999928 60.04999928 180 N D1 NSPU5201 ;0=1,1=0.3300,5=0
+PRP Arrow_Part_Number 'NSPU5201MUTBG'
+PRP Arrow_Price/Stock 'https://www.arrow.com/en/products/nspu5201mutbg/on-semiconductor'
+PRP ComponentLink1Description ''
+PRP ComponentLink1URL ''
+PRP Datasheet_Link 'https://www.onsemi.com/pub/Collateral/NSPU5201-D.PDF'
+PRP Design_Item_ID 'NSPU5201MUTBG'
+PRP Height '0mm'
+PRP Manufacturer_Name 'onsemi'
+PRP Manufacturer_Part_Number 'NSPU5201MUTBG'
+PRP Mouser_Part_Number '863-NSPU5201MUTBG'
+PRP Mouser_Price/Stock 'https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/NSPU5201MUTBG?qs=byeeYqUIh0OtIrNH4%2Fsnzg%3D%3D'
+PRP Source 'SamacSys.SchLib'
+TOP 0 27.70000048 60.9100001 90 N 29 3 1
+TOP 1 28.09999968 60.9100001 90 N 29 2 2
+TOP 2 28.49999888 60.9100001 90 N 0 16 3
+TOP 3 28.89999808 60.9100001 90 N 0 21 4
+TOP 4 28.69999848 59.18999846 90 N 39 53 5
+TOP 5 27.90000008 59.18999846 90 N 39 46 6
+TOP 6 28.69999848 60.04999928 90 N 39 54 7
+TOP 7 27.90000008 60.04999928 90 N 39 45 8
+#
